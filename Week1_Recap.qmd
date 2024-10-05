@@ -60,12 +60,26 @@ print("hello woRld!!!")
     * Q1, Q3, & Interquartile Range
       * To better have this explained, watch this YT video: https://youtu.be/RMOmAn2ShR0?si=hvjlp3zFKzpH5Kjd
       
-      
+    * Standard Deviation & Variance 
+      * Standard deviation & variance measure the spread of data points.
+      * They are used to quantify the amount of variation or dispersion in a set of data values.
+      * Here's the formual: 
+      $$
+      \sigma = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x})^2}
+      $$
 
+## Summarizing Data in R
+  - Use glimpse("name of the dataset")
+  - Use count("name of dataset","name of the col") to summarize categorical data
+    - take each data for each row and divide it by the # of observations
+  - Use summarize("name of the dataset", mean("name of the col")) to summarize numerical data 
+  - Use summarize("name of the dataset", median("name of the col")) when the data is skewd, when there are very high & very low numbers
+  - summarize("name of the dataset", quantile("name of the col", 0.75)) for Q3 or summarize("name of the dataset", quantile("name of the col", 0.25)) for Q1 
+  - Use summarize("name of the dataset", sd("name of the col") for standard deviation 
+  - Use summarize("name of the dataset", var("name of the col") for variance
 
-
-
-
+** NOTE ** 
+When data display a skewed distribution we rely on median rather than the mean to understand the center of the distribution.
 
 
 
