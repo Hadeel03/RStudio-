@@ -53,12 +53,12 @@ print("hello woRld!!!")
   * Variable summary 
     * Categorical data are summarized with frequency table (Counts or proportions).
     * Numerical data are summarized with the mean or average. 
-      * The mean is represented as $\bar{x}$. Summing the observed values and dividing         them with the number of observations.
+      * The mean is represented as $\bar{x}$. Summing the observed values and dividing them with the number of observations.
     * Median 
-      * List all of the observations from smallest to largest (or vice versa), the             median is the observation that is in the middle. 
-        * If there are 2 numbers in the middle, the median is the average of those 2            numbers.
+      * List all of the observations from smallest to largest (or vice versa), the median is the observation that is in the middle. 
+        * If there are 2 numbers in the middle, the median is the average of those 2 numbers.
     * Q1, Q3, & Interquartile Range
-      * To better have this explained, watch this YT video:                                     https://youtu.be/RMOmAn2ShR0?si=hvjlp3zFKzpH5Kjd
+      * To better have this explained, watch this YT video: https://youtu.be/RMOmAn2ShR0?si=hvjlp3zFKzpH5Kjd
       
       
 
