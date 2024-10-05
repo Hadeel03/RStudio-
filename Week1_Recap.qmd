@@ -27,4 +27,6 @@ print("hello woRld!!!")
 ```
 
 # Getting to know data
+## Data Sample
+![](data_sample.png)
     
