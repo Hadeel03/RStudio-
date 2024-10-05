@@ -29,4 +29,7 @@ print("hello woRld!!!")
 # Getting to know data
 ## Data Sample
 ![](data_sample.png)
+## Data Matrices
+  * Variables <- 8 (state, num_drivers, perc_speeding, perc_not_distracted, perc_no_previous, insurance_premiums, losses). AKA the number of columns!
+  * Cases or observations <- 51 (# of states). AKA the number of rows! 
     
