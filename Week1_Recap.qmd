@@ -28,7 +28,8 @@ print("hello woRld!!!")
 
 # Getting to know data
 ## Data Sample
-![](data_sample.png)
+![](data_sample.png) # The picture is included in week1 folder! 
+
 ## Data Matrices
   * Variables <- 8 (state, num_drivers, perc_speeding, perc_not_distracted, perc_no_previous, insurance_premiums, losses). AKA the number of columns!
   * Cases or observations <- 51 (# of states). AKA the number of rows! 
@@ -37,4 +38,14 @@ print("hello woRld!!!")
   * head() displays the first few rows
   * tail() displays the last few rows
   * glimpse() displays the # of rows and columns, the type of each column, and the first few values of each column horizontally.
+  
+## Variables 
+  * There are two types of variables 
+    * Categorical 
+    * Sometimes they are recorded as numbers but not necessarily numeric 
+      * Nominal: no ordering, based on magnitude such as disease (0(no),1(yes)) &              Bio.sex 
+      * Ordinal: rank or order such as coffee size (s,m,l)
+    * Numeric 
+      * Discrete: integer only such as # of people in ER
+      * Continuous: measured on a continues scale such as age & weight 
     
