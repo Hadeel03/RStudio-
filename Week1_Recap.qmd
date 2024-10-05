@@ -1,4 +1,5 @@
 ---
+# This here is ymal (yet another markup langauge) (HTML)
 title: "Week1_Recap"
 author: "Ghadeer Al Jufout"
 format: html
@@ -13,5 +14,10 @@ format: html
   For example My_apples will cause Error in eval(expr, envir, enclos): object'My_apples' not found
   * If something comes in quotes, it is not defined in R 
   * To get help use ? followed by function or object 
-  
-  
+  * tidyverse_style_guide
+    - After function names do not leave any spaces 
+    - Before & after operators leave spaces 
+    - Put a space after a comma not before
+    - Object names are all lower case, with words separated by an underscore
+    
+    
