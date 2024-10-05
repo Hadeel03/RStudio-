@@ -1,0 +1,12 @@
+---
+title: "Week1_Recap"
+author: "Ghadeer Al Jufout"
+format: html
+---
+
+#Week1 
+## RStudio
+  * Object assignment operator (MAC shortcut):
+  option + gives ≠
+  option - gives <- 
+  
