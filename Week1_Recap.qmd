@@ -9,4 +9,9 @@ format: html
   * Object assignment operator (MAC shortcut):
   option + gives ≠
   option - gives <- 
+  * R is case-sensitive 
+  For example My_apples will cause Error in eval(expr, envir, enclos): object'My_apples' not found
+  * If something comes in quotes, it is not defined in R 
+  * To get help use ? followed by function or object 
+  
   
