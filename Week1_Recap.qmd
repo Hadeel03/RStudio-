@@ -37,7 +37,7 @@ print("hello woRld!!!")
   * you can pass a second parameter to choose the # of rows to display
   * head() displays the first few rows
   * tail() displays the last few rows
-  * glimpse() displays the # of rows and columns, the type of each column, and the first few values of each column horizontally.
+  * glimpse() displays the # of rows(cases or observations) and columns(variables), the type of each column, and the first few values of each column horizontally.
   
 ## Variables 
   * There are two types of variables 
@@ -75,11 +75,13 @@ print("hello woRld!!!")
   - Use summarize("name of the dataset", mean("name of the col")) to summarize numerical data 
   - Use summarize("name of the dataset", median("name of the col")) when the data is skewd, when there are very high & very low numbers
   - summarize("name of the dataset", quantile("name of the col", 0.75)) for Q3 or summarize("name of the dataset", quantile("name of the col", 0.25)) for Q1 
-  - Use summarize("name of the dataset", sd("name of the col") for standard deviation 
-  - Use summarize("name of the dataset", var("name of the col") for variance
+  - Use summarize("name of the dataset", sd("name of the col")) for standard deviation 
+  - Use summarize("name of the dataset", var("name of the col")) for variance
 
 ** NOTE ** 
 When data display a skewed distribution we rely on median rather than the mean to understand the center of the distribution.
+https://youtu.be/9AKLd5FHzfI?si=2JAuOCC2AOlA0sbh
+
 
 ## Visuals 
   * Bar plots used for (Categorical data)
@@ -87,6 +89,7 @@ When data display a skewed distribution we rely on median rather than the mean t
 
 
 ## Graphing in R
+  - ggplot("dataset name", aes(x = var name)) + geom_bar() to graph a barplot
   - ggplot("dataset name", aes(x = var name)) + geom_histogram() to graph a histogram
   - ggplot("dataset name", aes(x = var name, y= other var name)) + geom_boxplot() for a boxplot
   - ggplot("dataset name", aes(x = var name, y= other var name)) + geom_point() for a scatter plot
